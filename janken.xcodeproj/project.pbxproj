@@ -21,6 +21,15 @@
 		D4AD4DC218248FB600A19CB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AD4DA418248FB600A19CB0 /* UIKit.framework */; };
 		D4AD4DCA18248FB600A19CB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4AD4DC818248FB600A19CB0 /* InfoPlist.strings */; };
 		D4AD4DCC18248FB600A19CB0 /* jankenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AD4DCB18248FB600A19CB0 /* jankenTests.m */; };
+		D4AD4E1F182605A500A19CB0 /* jack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4AD4E1C182605A500A19CB0 /* jack.jpg */; };
+		D4AD4E20182605A500A19CB0 /* king.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4AD4E1D182605A500A19CB0 /* king.jpg */; };
+		D4AD4E21182605A500A19CB0 /* queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4AD4E1E182605A500A19CB0 /* queen.jpg */; };
+		D4AD4E251826096800A19CB0 /* small_jack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4AD4E221826096800A19CB0 /* small_jack.jpg */; };
+		D4AD4E261826096800A19CB0 /* small_king.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4AD4E231826096800A19CB0 /* small_king.jpg */; };
+		D4AD4E271826096800A19CB0 /* small_queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4AD4E241826096800A19CB0 /* small_queen.jpg */; };
+		D4E62D0A1827DCE8001E6955 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E62D091827DCE8001E6955 /* AVFoundation.framework */; };
+		D4E62D0C1827E189001E6955 /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4E62D0B1827E189001E6955 /* bgm.mp3 */; };
+		D4E62D0E1827E5A5001E6955 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4E62D0D1827E5A5001E6955 /* click.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,15 @@
 		D4AD4DC718248FB600A19CB0 /* jankenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jankenTests-Info.plist"; sourceTree = "<group>"; };
 		D4AD4DC918248FB600A19CB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4AD4DCB18248FB600A19CB0 /* jankenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jankenTests.m; sourceTree = "<group>"; };
+		D4AD4E1C182605A500A19CB0 /* jack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jack.jpg; sourceTree = "<group>"; };
+		D4AD4E1D182605A500A19CB0 /* king.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = king.jpg; sourceTree = "<group>"; };
+		D4AD4E1E182605A500A19CB0 /* queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = queen.jpg; sourceTree = "<group>"; };
+		D4AD4E221826096800A19CB0 /* small_jack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = small_jack.jpg; sourceTree = "<group>"; };
+		D4AD4E231826096800A19CB0 /* small_king.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = small_king.jpg; sourceTree = "<group>"; };
+		D4AD4E241826096800A19CB0 /* small_queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = small_queen.jpg; sourceTree = "<group>"; };
+		D4E62D091827DCE8001E6955 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D4E62D0B1827E189001E6955 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = SOURCE_ROOT; };
+		D4E62D0D1827E5A5001E6955 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E62D0A1827DCE8001E6955 /* AVFoundation.framework in Frameworks */,
 				D4AD4DA318248FB600A19CB0 /* CoreGraphics.framework in Frameworks */,
 				D4AD4DA518248FB600A19CB0 /* UIKit.framework in Frameworks */,
 				D4AD4DA118248FB600A19CB0 /* Foundation.framework in Frameworks */,
@@ -101,6 +120,7 @@
 		D4AD4D9F18248FB600A19CB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4E62D091827DCE8001E6955 /* AVFoundation.framework */,
 				D4AD4DA018248FB600A19CB0 /* Foundation.framework */,
 				D4AD4DA218248FB600A19CB0 /* CoreGraphics.framework */,
 				D4AD4DA418248FB600A19CB0 /* UIKit.framework */,
@@ -126,6 +146,14 @@
 		D4AD4DA718248FB600A19CB0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D4E62D0B1827E189001E6955 /* bgm.mp3 */,
+				D4E62D0D1827E5A5001E6955 /* click.mp3 */,
+				D4AD4E221826096800A19CB0 /* small_jack.jpg */,
+				D4AD4E231826096800A19CB0 /* small_king.jpg */,
+				D4AD4E241826096800A19CB0 /* small_queen.jpg */,
+				D4AD4E1C182605A500A19CB0 /* jack.jpg */,
+				D4AD4E1D182605A500A19CB0 /* king.jpg */,
+				D4AD4E1E182605A500A19CB0 /* queen.jpg */,
 				D4AD4DA818248FB600A19CB0 /* janken-Info.plist */,
 				D4AD4DA918248FB600A19CB0 /* InfoPlist.strings */,
 				D4AD4DAC18248FB600A19CB0 /* main.m */,
@@ -228,9 +256,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4AD4E20182605A500A19CB0 /* king.jpg in Resources */,
+				D4AD4E1F182605A500A19CB0 /* jack.jpg in Resources */,
+				D4E62D0E1827E5A5001E6955 /* click.mp3 in Resources */,
+				D4AD4E251826096800A19CB0 /* small_jack.jpg in Resources */,
+				D4AD4E21182605A500A19CB0 /* queen.jpg in Resources */,
 				D4AD4DB918248FB600A19CB0 /* Images.xcassets in Resources */,
 				D4AD4DAB18248FB600A19CB0 /* InfoPlist.strings in Resources */,
+				D4AD4E261826096800A19CB0 /* small_king.jpg in Resources */,
 				D4AD4DB418248FB600A19CB0 /* Main.storyboard in Resources */,
+				D4AD4E271826096800A19CB0 /* small_queen.jpg in Resources */,
+				D4E62D0C1827E189001E6955 /* bgm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +498,7 @@
 				D4AD4DD118248FB600A19CB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4AD4DD218248FB600A19CB0 /* Build configuration list for PBXNativeTarget "jankenTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +507,7 @@
 				D4AD4DD418248FB600A19CB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
